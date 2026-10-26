@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
-int  factorial(int x){
+int  factorial(int n){
    int fact=1;
-   for(int i=1; i<=x; i++){
+   for(int i=1; i<=n; i++){
         fact=fact*i;
    }
    return fact;
 }
 int main(){
- int n;
- cout<<"Enter a number n :";
- cin>>n;
- cout<<factorial(n);
+ int a;
+ cout<<"Enter a number a :";
+ cin>>a;
+ cout<<factorial(a);
  return 0;
 }
